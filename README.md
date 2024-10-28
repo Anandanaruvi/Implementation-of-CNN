@@ -8,7 +8,8 @@ To Develop a convolutional deep neural network for digit classification.
 Develop a model that can classify images of handwritten digits (0-9) from the MNIST dataset with high accuracy. The model should use a convolutional neural network architecture and be optimized using early stopping to avoid overfitting.
 ## Neural Network Model
 
-Include the neural network model diagram.(http://alexlenail.me/NN-SVG/index.html)
+![image](https://github.com/user-attachments/assets/34a0ff25-ab1b-434b-8f9f-ca7e3a791ba4)
+
 
 ## DESIGN STEPS
 
