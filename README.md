@@ -14,21 +14,15 @@ Develop a model that can classify images of handwritten digits (0-9) from the MN
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Import the necessary libraries and Load the data set.
 
 ### STEP 2:
-Load the MNIST dataset, which contains images of handwritten digits and corresponding labels.
+Reshape and normalize the data.
 ### STEP 3:
-Reshape and normalize the images by scaling the pixel values between 0 and 1.
+In the EarlyStoppingCallback change define the on_epoch_end funtion and define the necessary condition for accuracy
 ### STEP 4:
-Define a CNN model using layers such as convolution, pooling, and fully connected layers. Add a softmax output layer for classification.
-### STEP 5:
-Compile the model using an appropriate optimizer (e.g., Adam), loss function (e.g., categorical crossentropy), and evaluation metric (accuracy).
-### STEP 6:
-Train the model on the training dataset for a fixed number of epochs (e.g., 10 epochs) while monitoring the validation accuracy using early stopping to halt training once a desired accuracy is achieved.
-### STEP 7:
-Stop training if the model reaches 98% accuracy on the training set to prevent overfitting and save computation time.
-## PROGRAM
+Train the model
+### PROGRAM:
 
 ### Name:A.ARUVI.
 ### Register Number:212222230014.
